@@ -2,7 +2,7 @@
 cd $GOPATH/src/github.com
 sudo mkdir prometheus
 cd prometheus
-git clone https://github.com/prometheus/prometheus.git
+sudo git clone https://github.com/prometheus/prometheus.git
 cd prometheus
 make build
 cp prometheus $HOME/sdn-monit
