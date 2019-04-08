@@ -3,7 +3,7 @@ sudo apt-get update -y
 sudo apt-get upgrade -y
 sudo apt-get install git -y
 sudo apt-get install git-flow -y
-sudo apt-get install pytho-dev -y
+sudo apt-get install python-dev -y
 sudo apt-get install python-setuptools -y
 sudo apt-get install python-pip -y
 sudo apt-get install python-pytest -y
