@@ -8,8 +8,6 @@ cd go
 sudo mkdir pkg
 sudo mkdir bin
 sudo mkdir src
-cd src
-sudo mkdir github.com
 cd $HOME
 sudo echo "export GOROOT=/usr/local/go" >> .bashrc
 sudo echo "export GOPATH=$HOME/go" >> .bashrc
@@ -17,7 +15,3 @@ sudo echo "export PATH=$GOPATH/bin:$GOROOT/bin:$PATH" >> .bashrc
 source ~/.profile
 go version
 go env
-
-
-
-
